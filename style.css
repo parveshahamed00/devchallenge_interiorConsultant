@@ -1,0 +1,65 @@
+li a{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 20px;
+    font-size: 18px;
+}
+li a:hover{
+    text-decoration: underline;
+}
+body{
+    background-color: black;
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+}
+.person{
+    width: 15%;
+    border-radius: 50%;
+    float: left;
+    margin-right:1rem;
+}
+.navbar-brand{
+    padding: 1%;
+    border: 2px;
+    border-color: whitesmoke;
+    border-style: solid;
+}
+.textcontent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image{
+    position: relative;
+}
+.container{
+    padding-top: 3%;
+}
+.textcontent h2{
+    font-size: 3em;
+    margin-bottom:10%;
+}
+.textcontent p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.persondiv{
+    padding: 2% 0 0 2%;
+    width: 40%;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    right: 20%;
+    
+}
+.persondiv p{
+    color: darkgrey;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+}
+@media (max-width:600px) {
+    .persondiv{
+        width: 60%;
+    }
+}
